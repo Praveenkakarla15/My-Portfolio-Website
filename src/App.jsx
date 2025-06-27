@@ -235,7 +235,7 @@ export default function App() {
             </p>
             <p className="text-xs mt-1">Tech Used: ReactJS, TailwindCSS</p>
             <a
-              href="EXPENSE_TRACKER_LINK"
+              href="https://expense-tracker-git-main-praveen-ks-projects-7fbabb68.vercel.app"
               target="_blank"
               className="mt-4 inline-block bg-yellow-400 px-4 py-2 rounded-xl hover:bg-yellow-500 text-sm"
             >
@@ -264,7 +264,7 @@ export default function App() {
               Tech Used: ReactJS, OpenWeather API, TailwindCSS
             </p>
             <a
-              href="WEATHER_APP_LINK"
+              href="https://weather-app-git-main-praveen-ks-projects-7fbabb68.vercel.app"
               target="_blank"
               className="mt-4 inline-block bg-yellow-400 px-4 py-2 rounded-xl hover:bg-yellow-500 text-sm"
             >
@@ -291,7 +291,7 @@ export default function App() {
             </p>
             <p className="text-xs mt-1">Tech Used: ReactJS, TailwindCSS</p>
             <a
-              href="COOLKART_LINK"
+              href="https://cool-kart-updated-git-main-praveen-ks-projects-7fbabb68.vercel.app"
               target="_blank"
               className="mt-4 inline-block bg-yellow-400 px-4 py-2 rounded-xl hover:bg-yellow-500 text-sm"
             >

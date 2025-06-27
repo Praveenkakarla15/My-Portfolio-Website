@@ -1,4 +1,3 @@
-// Updated Portfolio Website Structure with Full Responsiveness
 import { useEffect, useState } from "react";
 import { FaHeart, FaGithub, FaLinkedin, FaGitAlt, FaHtml5, FaCss3Alt, FaJs, FaReact, FaMoneyBillWave, FaCloudSun, FaShoppingCart } from "react-icons/fa";
 import { SiBootstrap, SiTailwindcss, SiNetlify, SiVercel, SiGithubpages } from "react-icons/si";
@@ -6,10 +5,11 @@ import { SiBootstrap, SiTailwindcss, SiNetlify, SiVercel, SiGithubpages } from "
 export default function App() {
   const [nameIndex, setNameIndex] = useState(0);
   const names = ["Tech Enthusiast", "Web Developer", "Nature Lover"];
+
   const bgImages = [
-    "url('/bg1.jpg')",
-    "url('/bg2.jpg')",
-    "url('/bg3.jpg')"
+    `url('${import.meta.env.BASE_URL}bg1.jpg')`,
+    `url('${import.meta.env.BASE_URL}bg2.jpg')`,
+    `url('${import.meta.env.BASE_URL}bg3.jpg')`
   ];
   const [bgIndex, setBgIndex] = useState(0);
 
@@ -48,7 +48,7 @@ export default function App() {
       {/* About Section */}
       <section id="about" className="min-h-screen grid grid-cols-1 md:grid-cols-2">
         <div className="bg-white flex justify-center items-center p-4">
-          <img src="/about-image.jpg" alt="About" className="max-h-[80%] w-full object-contain rounded-xl" />
+          <img src={`${import.meta.env.BASE_URL}about-image.jpg`} alt="About" className="max-h-[80%] w-full object-contain rounded-xl" />
         </div>
         <div className="bg-white text-blue-900 flex flex-col justify-center p-4 sm:p-6 md:p-12 gap-4 md:gap-6">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4">About Me</h2>

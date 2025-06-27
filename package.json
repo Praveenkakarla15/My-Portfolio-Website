@@ -1,10 +1,10 @@
 {
   "name": "portfolio-website",
-  "homepage": "https://Praveenkakarla15.github.io/My-Portfolio-Website/",
+  "homepage": "https://github.com/Praveenkakarla15/My-Portfolio-Website.git",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
+gi  "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
